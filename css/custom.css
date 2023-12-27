@@ -1,0 +1,328 @@
+/* Your custom css code goes here */
+/* added */
+#greeting {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #903479;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+     /* Style the dropdown container */
+     .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Style the button that will trigger the dropdown */
+    .dropdown button {
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .checkbox-options {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .checkbox-option {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .checkbox-option input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      
+      .checkbox-option label {
+        font-size: 14px;
+      }
+      /* Make the checkbox tick larger and smooth */
+.checkbox-option input[type="checkbox"] {
+    transform: scale(1.5); /* Adjust the scale value for the desired size */
+    transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+  }
+  
+  /* Adjust the appearance of the tick */
+  .checkbox-option input[type="checkbox"]::before {
+    font-family: 'Arial', sans-serif; /* Use a font that supports checkboxes */
+    content: '\2714'; /* Unicode character for a tick */
+    font-size: 1.2em; /* Adjust the size of the tick */
+    line-height: 0.8; /* Adjust the vertical position of the tick */
+    color: transparent; /* Make the tick color transparent */
+  }
+  
+
+  
+
+  .probootstrap-half .image {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.probootstrap-half .image .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: url('../img/play.png') no-repeat center center; /* Updated image path */
+    background-size: contain;
+    cursor: pointer;
+}
+
+.outside {
+  display: block; /* Make sure the image is a block-level element */
+  margin: 30px auto; /* Center align the image horizontally */
+  max-width: 100%; /* Adjust the maximum width to your desired size */
+  height: auto; /* Maintain the aspect ratio while resizing */
+  border-radius: 10px; /* Add a border radius to round the corners */
+}
+
+.outside {
+  transition: transform 0.5s ease; /* Add a smooth transition on the transform property */
+}
+
+.outside:hover {
+  transform: translateY(-10px); /* Move the element up by 10 pixels on hover */
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.food {
+  max-width: 23%; /* Adjust to fit 4 items in a row (100% / 4) */
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 20px; /* Add some spacing between the images */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+.food {
+  transition: transform 0.5s ease; /* Add a smooth transition on the transform property */
+}
+.food:hover {
+  transform: translateY(-20px); /* Move the element up by 10 pixels on hover */
+  cursor: pointer;
+}
+
+
+.tg {
+  max-width: 30%; /* Adjust to fit 4 items in a row (100% / 4) */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Add some spacing between the images */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+.tg {
+  transition: transform 0.5s ease; /* Add a smooth transition on the transform property */
+}
+.tg:hover {
+  transform: translateY(-5px); /* Move the element up by 10 pixels on hover */
+}
+
+
+
+.tgc {
+  max-width: 100%; /* Adjust to fit 4 items in a row (100% / 4) */
+  height: auto;
+  border-radius: 175px;
+  margin-bottom: 20px; /* Add some spacing between the images */
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+.tgc {
+  transition: transform 0.5s ease; /* Add a smooth transition on the transform property */
+}
+.tgc:hover {
+  transform: translateY(-25px); /* Move the element up by 10 pixels on hover */
+  cursor: pointer;
+
+}
+
+@media (max-width: 767px) {
+  .tgc {
+    max-width: 100%; /* Adjust to fit 2 items per row on smaller screens */
+    margin-bottom: 40px;
+  }
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+@media (max-width: 767px) {
+  .tg {
+    max-width: 100%; /* Adjust to fit 2 items per row on smaller screens */
+  }
+}
+
+
+.hr{
+  width: 100%; /* Adjust as needed */
+  height: 1px; /* Adjust as needed */
+  color: #cfcfcf; /* Red color, replace with your desired color */
+  border-width: 2px; /* Adjust the thickness (border width) as needed */
+  border-color: #dfdfdf;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+
+@media (max-width: 767px) {
+  .food {
+    max-width: 48%; /* Adjust to fit 2 items per row on smaller screens */
+  }
+}
+
+
+.about{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dest {
+  background-color: none;
+  border: 2px solid black;
+  color: #000000;
+  padding-left: -2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center align the text */
+  margin-top: 20px;
+}
+
+.dest:hover {
+  color: white; /* Change text color to white on hover */
+  background-color: #903479;
+}
+
+.km{
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  background-color: rgb(0, 0, 0);
+  padding: 4px;
+  margin-left: 8px;
+  border-radius: 5px;
+}
+.specs li{
+  color: #cacaca;
+  padding-bottom: 5px; /* Adjust the padding to increase the space between items */
+
+
+}
+    /* Make the embedded map responsive */
+    iframe {
+    width: 100%;
+    height: 100%; /* Adjust the height as needed for mobile */
+    }
+
+    /* Apply different styles for larger screens if necessary */
+    @media (min-width: 768px) {
+    iframe {
+        height: 200%; /* Adjust the height for larger screens */
+    }
+    }
+
+    .pt{
+      margin-bottom: 35px;
+    }
+
+    .process{
+      text-align: justify;
+      margin-bottom: 10px;
+      padding: 20px;
+    }
+    .process i, .span {
+      color: #903479; /* Change the color to red */
+      font-size: 18px; /* Change the font size to 18 pixels */
+    }
+    .pd{
+      padding-left: 25px;
+    }
+
+    .rcc{
+      background-color: #903479;
+      color: #fff;
+      border-radius: 8px;
+      margin-left: 20px;
+      padding: 10px;
+    }
+    .rcw{
+      background-color: #903479;
+      color: #fff;
+      border-radius: 8px;
+      margin-left: 5px;
+      padding: 10px;
+    }
+    .rcc:hover{
+      background-color: #ebe708;
+      color: #000000;
+    }
+    .rcw:hover{
+      background-color: #19dd29;
+      color: #000000;
+    }
+
+   
+    
+    .banks {
+      max-width: 35%; /* Adjust to fit 4 items in a row (100% / 4) */
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+      margin-left: 20px;
+    }
+    
+    .banks {
+      transition: transform 0.5s ease; /* Add a smooth transition on the transform property */
+    }
+    .banks:hover {
+      transform: translateY(-5px); /* Move the element up by 10 pixels on hover */
+    }
+    
+    @media (max-width: 767px) {
+      .banks {
+        max-width: 90%; /* Adjust to fit 2 items per row on smaller screens */
+        margin: 20px;
+      }
+    }
+
+    .iframe {
+      width: 100%;
+      height: 125vh;
+  }
