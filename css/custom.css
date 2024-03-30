@@ -116,7 +116,7 @@
 }
 
 .food {
-  max-width: 18%; /* Adjust to fit 4 items in a row (100% / 4) */
+  max-width: 15%; /* Adjust to fit 4 items in a row (100% / 4) */
   height: auto;
   border-radius: 20px;
   margin-bottom: 20px; /* Add some spacing between the images */
